@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+
+.git/
+/LaboratoryInvoice/obj/Debug
+.vs/
+/LaboratoryInvoice/bin/Debug
+/Doc/~$voice 1063-2019-20.docx
+/.vs/LaboratoryInvoice/v14/.suo
+/LaboratoryInvoice.rar
+/LaboratoryInvoice/bin/Release/app.publish/LaboratoryInvoice.exe
+/LaboratoryInvoice/bin
+/LaboratoryInvoice/obj/Release
