@@ -8,18 +8,18 @@ https://docs.microsoft.com/en-us/sql/relational-databases/databases/create-a-dat
 https://docs.microsoft.com/en-us/sql/t-sql/lesson-1-creating-database-objects?view=sql-server-ver15
 
 ## Steps for Create Database using cmd.
-*1) Open cmd and type below command
+1) Open cmd and type below command
 sqlcmd -S <computer name>\SQLEXPRESS -E
 
-*2) show Database
+2) show Database
 SELECT NAME FROM SYS.DATABASES
 GO
 
-*3) Drop database
+3) Drop database
 DROP DATABASE <database_name>
 GO
 
-*4) Show all tables
+4) Show all tables
 USE YourDBName
 GO 
 SELECT *
