@@ -3,15 +3,15 @@
 
 ## Download SQL Server - Lightweight
 
-    https://go.microsoft.com/fwlink/?linkid=866658
+    [https://go.microsoft.com/fwlink/?linkid=866658](https://go.microsoft.com/fwlink/?linkid=866658)
 
 ## Download SAP for Visual Studio
 
-    https://mega.nz/file/6x0R1DpA#voN7ueVaSveiBnO7U4HuIdr0INOyVNtccJDvjJCzTOM
+    [https://mega.nz/file/6x0R1DpA#voN7ueVaSveiBnO7U4HuIdr0INOyVNtccJDvjJCzTOM](https://mega.nz/file/6x0R1DpA#voN7ueVaSveiBnO7U4HuIdr0INOyVNtccJDvjJCzTOM)
 
 ## Download SAP for without Visual Studio
 
-    https://mega.nz/file/zhc2XApL#184RFpGSxknVkzuqGwMTky0dN0tP1gQ9EC7G6ra5Za4
+    [https://mega.nz/file/zhc2XApL#184RFpGSxknVkzuqGwMTky0dN0tP1gQ9EC7G6ra5Za4](https://mega.nz/file/zhc2XApL#184RFpGSxknVkzuqGwMTky0dN0tP1gQ9EC7G6ra5Za4)
 
 ## If require to download Transact-SQL utility
 
