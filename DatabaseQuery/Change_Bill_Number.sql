@@ -1,0 +1,12 @@
+USE [Laboratoty_Dev]
+GO
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+UPDATE [dbo].[BillHeader]
+	SET [InvoiceNo] = '11/2020-2021'   
+WHERE id = 11
+GO

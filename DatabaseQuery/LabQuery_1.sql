@@ -1,6 +1,6 @@
 USE [master]
 GO
-/****** Object:  Database [Laboratoty_Dev]    Script Date: 24-08-2020 2.32.58 AM ******/
+/****** Object:  Database [Laboratoty_Dev]    Script Date: 22-09-2020 10.30.34 PM ******/
 CREATE DATABASE [Laboratoty_Dev]
 GO
 ALTER DATABASE [Laboratoty_Dev] SET COMPATIBILITY_LEVEL = 120
@@ -72,7 +72,7 @@ EXEC sys.sp_db_vardecimal_storage_format N'Laboratoty_Dev', N'ON'
 GO
 USE [Laboratoty_Dev]
 GO
-/****** Object:  Table [dbo].[BillDetail]    Script Date: 24-08-2020 2.32.58 AM ******/
+/****** Object:  Table [dbo].[BillDetail]    Script Date: 22-09-2020 10.30.34 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -94,7 +94,7 @@ CREATE TABLE [dbo].[BillDetail](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[BillHeader]    Script Date: 24-08-2020 2.32.58 AM ******/
+/****** Object:  Table [dbo].[BillHeader]    Script Date: 22-09-2020 10.30.34 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -124,7 +124,7 @@ CREATE TABLE [dbo].[BillHeader](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[EnumPaymentType]    Script Date: 24-08-2020 2.32.58 AM ******/
+/****** Object:  Table [dbo].[EnumPaymentType]    Script Date: 22-09-2020 10.30.34 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -138,7 +138,7 @@ CREATE TABLE [dbo].[EnumPaymentType](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[MasterBankDetail]    Script Date: 24-08-2020 2.32.58 AM ******/
+/****** Object:  Table [dbo].[MasterBankDetail]    Script Date: 22-09-2020 10.30.34 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -161,7 +161,7 @@ CREATE TABLE [dbo].[MasterBankDetail](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[MasterCompany]    Script Date: 24-08-2020 2.32.58 AM ******/
+/****** Object:  Table [dbo].[MasterCompany]    Script Date: 22-09-2020 10.30.34 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -195,7 +195,7 @@ CREATE TABLE [dbo].[MasterCompany](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[MasterDoctor]    Script Date: 24-08-2020 2.32.58 AM ******/
+/****** Object:  Table [dbo].[MasterDoctor]    Script Date: 22-09-2020 10.30.34 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -215,7 +215,7 @@ CREATE TABLE [dbo].[MasterDoctor](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[MasterPatient]    Script Date: 24-08-2020 2.32.58 AM ******/
+/****** Object:  Table [dbo].[MasterPatient]    Script Date: 22-09-2020 10.30.34 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -242,7 +242,7 @@ CREATE TABLE [dbo].[MasterPatient](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[MasterTest]    Script Date: 24-08-2020 2.32.58 AM ******/
+/****** Object:  Table [dbo].[MasterTest]    Script Date: 22-09-2020 10.30.34 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -262,7 +262,7 @@ CREATE TABLE [dbo].[MasterTest](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[MasterUser]    Script Date: 24-08-2020 2.32.58 AM ******/
+/****** Object:  Table [dbo].[MasterUser]    Script Date: 22-09-2020 10.30.34 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -317,7 +317,7 @@ REFERENCES [dbo].[MasterPatient] ([Id])
 GO
 ALTER TABLE [dbo].[BillHeader] CHECK CONSTRAINT [FK_BillHeader_MasterPatient]
 GO
-/****** Object:  StoredProcedure [dbo].[BillDetailPrint]    Script Date: 24-08-2020 2.32.58 AM ******/
+/****** Object:  StoredProcedure [dbo].[BillDetailPrint]    Script Date: 22-09-2020 10.30.34 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -346,7 +346,52 @@ LEFT JOIN MasterCompany MC ON BH.MasterCompanyId = MC.Id
 WHERE BH.InvoiceNo = @invoiceNo
 END
 GO
+
 USE [master]
 GO
 ALTER DATABASE [Laboratoty_Dev] SET  READ_WRITE 
 GO
+
+
+/****** Object:  StoredProcedure [dbo].[BillDetailPrint]    Script Date: 22-09-2020 10.30.34 PPM ******/
+USE [Laboratoty_Dev]
+GO
+/****** Object:  StoredProcedure [dbo].[BillDetailPrint]    Script Date: 22-09-2020 10.30.34 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER OFF
+GO
+ALTER PROCEDURE [dbo].[BillDetailPrint] (@invoiceNo NVARCHAR(200))
+	-- Add the parameters for the stored procedure here
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+	SELECT BH.InvoiceNo
+		,BH.InvoiceDate
+		,BH.GrandTotal
+		,BH.DiscountPercentage
+		,BH.DiscountAmount
+		,BD.Amount
+		,BD.UnitPrice
+		,BD.NoOfTest
+		,MBD.AccountNumber
+		,MBD.BankName
+		,MBD.IFSCCode
+		,MBD.Branch
+		,MP.PatientFirstName
+		,MP.PatientMiddleName
+		,MP.PatientlastName
+		,MT.TestName
+		,MC.GSTIN
+		,MC.PAN
+	FROM BillHeader BH
+	INNER JOIN BillDetail BD ON BH.Id = BD.BillHeaderId
+	LEFT JOIN MasterBankDetail MBD ON MBD.Id = BH.MasterBankId
+	LEFT JOIN MasterPatient MP ON MP.Id = BH.MasterPatientId
+	LEFT JOIN MasterTest MT ON BD.MasterTestDetailId = MT.Id
+	LEFT JOIN MasterCompany MC ON BH.MasterCompanyId = MC.Id
+	WHERE BH.InvoiceNo = @invoiceNo
+END
