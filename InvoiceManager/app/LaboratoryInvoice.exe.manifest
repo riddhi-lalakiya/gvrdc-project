@@ -266,7 +266,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>+qMExqDlVHvQKqEAg6xYk6xm7VC1Epdh9p6u06TdB9Y=</dsig:DigestValue>
+        <dsig:DigestValue>UILMiRs4nhHI4j6rI9ff77qo2fZhLlutrclU6cKnuq8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -327,31 +327,31 @@
       <dsig:DigestValue>kF/388byXKMo3bwgyzpwy0XIq7Kc21zd5gJWvfoZxf0=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="LaboratoryInvoice.exe.config" size="2332">
+  <file name="LaboratoryInvoice.exe.config" size="2366">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>xKP9XYw4ASnezroUjJnQlqAfd560yZAiMBdwUs5XY4E=</dsig:DigestValue>
+      <dsig:DigestValue>KyxPacRNEw4HYMAgsIm3634k9CRh8KrVnH8SJL0YfIo=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Model1.Context.tt" size="22295">
+  <file name="Model1.Context.tt" size="22930">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>qNCE2gny02Xcwm1TTYBewyAlqml7dDSfXULToaJbwwQ=</dsig:DigestValue>
+      <dsig:DigestValue>iH6jRm/ArXOO/wVogKb8ZOaRJ6DvCC6vOswudwQkDnQ=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Model1.tt" size="24543">
+  <file name="Model1.tt" size="25275">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>6n/WRPDvt/FytSEx65xaJDZzRooRkHeUI3Q0T+rCCVM=</dsig:DigestValue>
+      <dsig:DigestValue>CabSpKm6yYNT6twBZzKHKM3v3aBYMgNzK0uSDYpHoWw=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
