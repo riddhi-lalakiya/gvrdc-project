@@ -259,14 +259,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LaboratoryInvoice.exe" size="4347904">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LaboratoryInvoice.exe" size="9297408">
       <assemblyIdentity name="LaboratoryInvoice" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>UILMiRs4nhHI4j6rI9ff77qo2fZhLlutrclU6cKnuq8=</dsig:DigestValue>
+        <dsig:DigestValue>XGU2NB9byXoyYLNCXqtkfVUCXFhV2vXt6ZN9s3t7yZk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
