@@ -14,14 +14,14 @@
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="LaboratoryInvoice.exe.manifest" size="21860">
+    <dependentAssembly dependencyType="install" codebase="LaboratoryInvoice.exe.manifest" size="21861">
       <assemblyIdentity name="LaboratoryInvoice.exe" version="1.0.0.7" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>4sjTa99WjU/U45aQEv0GiyeEJnGn88xLDuZzAnZIcD8=</dsig:DigestValue>
+        <dsig:DigestValue>TCK5WID6gr93C/trtXgMMOcR2PiMhpULQrjOVpUh5yM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
